@@ -1,6 +1,9 @@
-let nota = 75;
+let nota = 70;
 
-if(nota >= 80){
-    console.log("nota a+")
-} else if (nota >= 60){
-    console.log("nota b-");
+if (nota >= 80) {
+ console.log("Nota+");
+} else if (nota >=60) {
+   console.log("Nota B-");
+    } else if (nota >= 40) {
+        console.log("Nota F");
+    }
